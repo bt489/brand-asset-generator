@@ -184,7 +184,7 @@ i used claude code but it works in any coding assistant
 
 full prompt + all generated assets are on github:
 
-[LINK TO GITHUB REPO]
+github.com/bt489/brand-asset-generator
 
 everything is SVG so you can:
 - scale to any size
