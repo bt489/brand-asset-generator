@@ -10,9 +10,9 @@ i built a prompt that turns one logo into 70+ brand assets
 
 social templates, favicons, OG images, business cards, email signatures, ad banners... everything
 
-took me 20 minutes
+it asks you 3 questions, then builds it all with YOUR copy
 
-here's the exact prompt and process (free):
+here's the exact prompt (free):
 
 ---
 
@@ -37,173 +37,200 @@ so i wrote a prompt that acts like a full branding team:
 > social media expert
 > production specialist
 
-you give it one logo and it outputs a complete brand asset library
+you give it one logo, answer a few questions, and it outputs a complete brand asset library
+
+with YOUR actual tagline, CTA, and brand voice
 
 ---
 
 ### Tweet 4
 
-here's what it generates:
+the key insight:
 
-**logos:**
-- primary, stacked, logomark only
-- monochrome versions (black, white, brand color)
-- different sizes for headers, footers, favicons
+most AI branding prompts output garbage like "[Your Tagline Here]" everywhere
 
-[SCREENSHOT: logos folder showing all 7 variations]
+mine asks you upfront:
+- what's your tagline?
+- what's your CTA?
+- what's your website/socials?
+- what's your brand voice?
+
+then every single asset uses your real copy
 
 ---
 
 ### Tweet 5
 
-**social media kit:**
+here's what it generates:
 
-every platform covered:
-- instagram (profile, posts, stories, highlights)
-- twitter/x (header, post templates)
-- linkedin (banner, posts)
-- youtube (banner, thumbnails, watermark)
-- facebook (cover, posts)
+**logos:**
+- primary, dark mode, logomark only
+- monochrome versions (black, white)
+- different sizes for headers, favicons
 
-[SCREENSHOT: social folder structure]
+and it preserves your EXACT logo - no "creative liberties"
+
+[SCREENSHOT: logos folder showing variations]
 
 ---
 
 ### Tweet 6
 
-**web assets:**
+**social media kit:**
 
-- OG images (1200x630)
-- twitter cards
-- favicons (all sizes including apple touch)
-- loading spinners
-- 404 error pages
-- empty states
+every platform covered:
+- twitter/x (header, post templates, profile)
+- instagram (profile, posts, stories)
+- linkedin (banner, posts)
+- youtube (banner, thumbnails)
+- facebook (cover)
 
-[SCREENSHOT: og-template.svg or web folder]
+all with your real tagline baked in
+
+[SCREENSHOT: social folder or twitter header]
 
 ---
 
 ### Tweet 7
 
-**business stuff:**
+**web assets:**
 
-- letterhead template
-- business card (front + back)
-- presentation slides (title, content, section dividers)
-- email header/footer
-- html email signature
+- OG images (1200x630) with your tagline
+- twitter cards
+- favicons (all sizes including apple touch)
+- loading spinners in brand colors
+- 404 error page
 
-[SCREENSHOT: business-card-template.svg]
+[SCREENSHOT: og-image.svg in browser]
 
 ---
 
 ### Tweet 8
 
-**ads:**
+**business stuff:**
 
-- leaderboard (728x90)
-- medium rectangle (300x250)
-- skyscraper (160x600)
-- mobile banners
+- letterhead template
+- business card
+- email header/footer
+- html email signature (copy/paste into gmail)
 
-ready to upload to google ads
+your website and socials already filled in
 
-[SCREENSHOT: ads folder]
+[SCREENSHOT: business-card.svg]
 
 ---
 
 ### Tweet 9
 
-**video/motion:**
+**ads:**
 
-- lower thirds for youtube/streams
-- video outro cards
-- zoom backgrounds
-- podcast cover art (3000x3000)
+- leaderboard (728x90)
+- medium rectangle (300x250)
+- mobile banner (320x50)
 
-[SCREENSHOT: video-outro.svg]
+your CTA button ready to go
+
+upload straight to google ads
+
+[SCREENSHOT: medium-rect ad]
 
 ---
 
 ### Tweet 10
 
-it also outputs:
+**video/motion:**
 
-**design tokens** - CSS variables you can drop straight into your codebase
+- lower thirds for youtube/streams
+- video outro with CTA
+- zoom background
+- all branded with your actual social handles
 
-**figma specs** - every dimension, color, font weight documented
-
-**brand guidelines** - logo usage rules, clear space, don'ts
-
-[SCREENSHOT: tokens folder or colors.css]
+[SCREENSHOT: video-outro.svg]
 
 ---
 
 ### Tweet 11
 
-the prompt works in phases:
+it also outputs:
 
-1. analyze the logo (colors, typography, mood)
-2. generate core assets (logo variations, favicons)
-3. digital platform assets (social, web, email)
-4. business assets (docs, presentations)
-5. extended assets (patterns, video)
-6. documentation
+**design tokens** - CSS variables for your codebase
+**JSON tokens** - includes your brand name, tagline, CTA
+**figma specs** - every dimension documented
+**brand guidelines** - logo rules, color specs
+
+[SCREENSHOT: tokens.json or colors.css]
 
 ---
 
 ### Tweet 12
 
-why this works:
+the prompt works in phases:
 
-the prompt doesn't just say "make me social templates"
-
-it gives claude the context of a full design team with specific roles
-
-each role focuses on their specialty
-
-the output is cohesive because there's a strategic layer coordinating everything
+0. brand discovery (asks you questions first)
+1. analyze logo (extracts colors, won't modify it)
+2. core assets (logo variations, favicons)
+3. digital assets (social, web, email)
+4. business assets (docs, ads)
+5. extended assets (patterns, video)
+6. documentation
 
 ---
 
 ### Tweet 13
 
-how to use it:
+why this works better than other prompts:
 
-1. copy the prompt
-2. point it at your existing logo file
-3. specify your priorities (social first? web first?)
-4. let it run
-
-i used claude code but it works in any coding assistant
+1. asks questions BEFORE creating anything
+2. preserves your exact logo (no AI redesigns)
+3. uses your real copy everywhere
+4. outputs SVG (infinitely scalable, editable)
+5. covers every platform in one run
 
 ---
 
 ### Tweet 14
 
-full prompt + all generated assets are on github:
+how to use it:
 
-github.com/bt489/brand-asset-generator
+1. copy the prompt
+2. point it at your logo file
+3. answer the brand questions it asks
+4. tell it which platform matters most to you
+5. let it run
 
-everything is SVG so you can:
-- scale to any size
-- edit colors easily
-- convert to PNG with any tool
+works in claude code, cursor, or any coding assistant
 
 ---
 
-### Tweet 15 (CTA)
+### Tweet 15
 
-if you're building something and need brand assets fast, just use this
+full prompt + example output on github:
 
-no more spending hours in canva
+github.com/bt489/brand-asset-generator
 
-no more hiring designers for basic templates
+the prompt asks for:
+- brand name + tagline
+- CTA text
+- website + social handles
+- brand personality
+- target audience
+- priority platform
 
-one prompt, 70+ assets, 20 minutes
+then builds everything custom
 
-bookmark this and try it on your next project
+---
+
+### Tweet 16 (CTA)
+
+if you're building something and need brand assets fast, use this
+
+no more placeholder text everywhere
+no more hours in canva
+no more $500 fiverr orders
+
+one prompt, your real copy, 70+ assets
+
+bookmark and try it on your next project
 
 ---
 
@@ -218,44 +245,44 @@ Take these screenshots to include in your thread:
 
 ### Screenshot 2: Logo Variations
 **File:** Open `logos/` folder
-**Show:** All 7 logo SVG files listed
-**Alternative:** Open logo-primary.svg and logo-monochrome-white.svg side by side in browser
-**Caption:** "7 logo variations from one input"
+**Show:** All logo SVG files listed
+**Alternative:** Open logo-primary.svg and logo-dark.svg side by side in browser
+**Caption:** "logo variations - exact logo preserved"
 
-### Screenshot 3: Social Folder
-**File:** Open `social/` folder
-**Show:** The platform subfolders (instagram, facebook, linkedin, twitter, youtube)
-**Caption:** "every major platform covered"
+### Screenshot 3: Twitter/X Header
+**File:** Open `social/twitter/header-1500x500.svg` in browser
+**Show:** The full header with real tagline
+**Caption:** "twitter header with YOUR tagline"
 
-### Screenshot 4: OG Template
-**File:** Open `web/og-template.svg` in a browser
-**Show:** The full OG image design
-**Caption:** "OG image ready to go"
+### Screenshot 4: OG Image
+**File:** Open `web/og-image.svg` in a browser
+**Show:** The full OG image with real copy
+**Caption:** "OG image with your actual messaging"
 
-### Screenshot 5: Favicon Set
-**File:** Open `favicons/` folder or open favicon-512.svg in browser
-**Show:** The favicons at different sizes
-**Caption:** "favicon system (16px to 512px)"
+### Screenshot 5: Design Tokens
+**File:** Open `tokens/tokens.json` in VS Code
+**Show:** The brand object with name, tagline, CTA, website, social
+**Caption:** "your brand info baked into code"
 
 ### Screenshot 6: Business Card
-**File:** Open `documents/business-card-template.svg` in browser
-**Show:** Front and back of business card design
-**Caption:** "business card front + back"
+**File:** Open `documents/business-card.svg` in browser
+**Show:** Business card with real contact info
+**Caption:** "business card ready to print"
 
-### Screenshot 7: CSS Tokens
-**File:** Open `tokens/colors.css` in VS Code
-**Show:** The CSS custom properties
-**Caption:** "design tokens ready for your codebase"
+### Screenshot 7: Video Outro
+**File:** Open `video/video-outro.svg` in browser
+**Show:** The outro with tagline and CTA button
+**Caption:** "video outro with your CTA"
 
-### Screenshot 8: Instagram Templates
-**File:** Open any of the Instagram post templates in browser
-**Show:** The square or portrait template
-**Caption:** "instagram templates"
-
-### Screenshot 9: The Prompt
+### Screenshot 8: The Prompt (Brand Discovery)
 **File:** Open `branding-agent-prompt.md`
-**Show:** The top portion showing the team roles
-**Caption:** "the prompt that makes it work"
+**Show:** The Phase 0 Brand Discovery section with the questions
+**Caption:** "asks YOU first, then builds"
+
+### Screenshot 9: Twitter Post Template
+**File:** Open `social/twitter/post-announcement.svg` in browser
+**Show:** Post template with real tagline
+**Caption:** "post templates with real copy"
 
 ---
 
@@ -263,9 +290,9 @@ Take these screenshots to include in your thread:
 
 1. **Post time:** Early morning or lunch (when devs/founders scroll)
 
-2. **First screenshot:** Use the folder structure - it shows the scale immediately
+2. **First screenshot:** Use the twitter header showing real tagline - proves it's not placeholder garbage
 
-3. **GitHub link:** Add it in tweet 14, not earlier (keeps people reading)
+3. **GitHub link:** Add it in tweet 15, not earlier (keeps people reading)
 
 4. **Hashtags:** Skip them - they look spammy in threads
 
@@ -277,17 +304,17 @@ Take these screenshots to include in your thread:
 
 ## Alternative Hook Options
 
-**Option A (curiosity):**
-"i automated my entire brand design process with one prompt"
+**Option A (problem-focused):**
+"tired of AI brand prompts that output '[Your Tagline Here]' everywhere?"
 
 **Option B (specific):**
-"70+ brand assets in 20 minutes using claude code"
+"70+ brand assets with YOUR actual copy - not placeholder text"
 
-**Option C (problem-focused):**
-"tired of making the same canva templates over and over?"
+**Option C (curiosity):**
+"i automated my entire brand design process with one prompt that actually asks questions first"
 
 **Option D (results):**
-"this prompt replaced my $500 fiverr branding order"
+"this prompt replaced my $500 fiverr branding order - and used my real messaging"
 
 ---
 
@@ -298,14 +325,20 @@ When people ask questions, have these ready:
 **"Does it work with [other AI]?"**
 > "wrote it for claude code but the prompt structure works anywhere - just adapt the file creation parts"
 
-**"Can you make one for [other brand]?"**
-> "that's the point - swap in your logo and it generates everything custom"
+**"Can you make one for [my brand]?"**
+> "that's the point - it asks you questions first then generates everything with YOUR copy"
 
 **"What about PNG exports?"**
 > "outputs are SVG so they scale infinitely - use any converter for PNG (i like svgtopng.com)"
 
+**"What questions does it ask?"**
+> "brand name, tagline, CTA, website, socials, brand personality, target audience, and which platform matters most to you"
+
 **"This is amazing"**
 > "appreciate it - let me know what you build with it"
+
+**"Why SVG and not PNG?"**
+> "SVG = infinitely scalable, editable colors, smaller files. convert to PNG whenever you need"
 
 ---
 
@@ -313,8 +346,8 @@ When people ask questions, have these ready:
 
 1. Reply to your own thread with "bookmark this for your next project"
 
-2. Quote tweet later with a single asset highlight ("the podcast cover alone is worth it")
+2. Quote tweet later with a single asset highlight ("the video outro alone is worth it - actually has my CTA on it")
 
-3. If it does well, do a follow-up thread showing the actual prompt breakdown
+3. If it does well, do a follow-up thread showing the brand discovery questions in detail
 
-4. Cross-post the github link to relevant subreddits (r/SideProject, r/ClaudeAI)
+4. Cross-post the github link to relevant subreddits (r/SideProject, r/ClaudeAI, r/indiehackers)
