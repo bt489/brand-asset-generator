@@ -1,0 +1,26 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yt-banner-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="40%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="2560" height="1440" fill="url(#yt-banner-grad)"/>
+
+  <!-- Background decorative waves (right side) -->
+  <circle cx="2100" cy="720" r="200" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.08"/>
+  <circle cx="2100" cy="720" r="350" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.05"/>
+  <circle cx="2100" cy="720" r="500" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.03"/>
+
+  <!-- Safe area content (centered in 1546x423 safe zone) -->
+  <!-- Logo and signal - centered -->
+  <circle cx="980" cy="720" r="60" fill="white"/>
+  <path d="M1080 610C1130 660 1160 692 1160 720C1160 748 1130 780 1080 830" stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M1170 530C1240 600 1285 662 1285 720C1285 778 1240 840 1170 910" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M1260 455C1350 545 1405 635 1405 720C1405 805 1350 895 1260 985" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- Brand name -->
+  <text x="1280" y="750" font-family="Outfit, sans-serif" font-size="96" font-weight="700" fill="white" text-anchor="middle">ShipSignal</text>
+</svg>

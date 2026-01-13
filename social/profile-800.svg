@@ -1,0 +1,17 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- High-res profile picture (YouTube, etc.) -->
+  <defs>
+    <linearGradient id="profile-bg-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#profile-bg-lg)"/>
+
+  <!-- Signal icon centered -->
+  <circle cx="260" cy="400" r="80" fill="white"/>
+  <path d="M400 260C460 320 500 360 500 400C500 440 460 480 400 540" stroke="white" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <path d="M520 160C610 250 670 324 670 400C670 476 610 550 520 640" stroke="white" stroke-width="32" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M630 80C740 190 800 294 800 400C800 506 740 610 630 720" stroke="white" stroke-width="32" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

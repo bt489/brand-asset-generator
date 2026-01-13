@@ -1,0 +1,47 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Video outro/end screen (1080p) -->
+
+  <defs>
+    <linearGradient id="outro-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#outro-grad)"/>
+
+  <!-- Decorative waves -->
+  <circle cx="1600" cy="540" r="300" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.08"/>
+  <circle cx="1600" cy="540" r="450" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.05"/>
+  <circle cx="1600" cy="540" r="600" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.03"/>
+
+  <!-- Main logo (centered) -->
+  <g transform="translate(760, 350)">
+    <circle cx="100" cy="60" r="60" fill="white"/>
+    <path d="M190 0C240 50 270 70 270 60C270 50 240 30 190 -20" stroke="white" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <path d="M190 20C220 50 240 70 240 80C240 90 220 110 190 140" stroke="white" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M280 -40C345 25 385 70 385 60C385 50 345 5 280 -60" stroke="white" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.35"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="960" y="550" font-family="Outfit, sans-serif" font-size="72" font-weight="700" fill="white" text-anchor="middle">ShipSignal</text>
+
+  <!-- Tagline -->
+  <text x="960" y="610" font-family="Outfit, sans-serif" font-size="28" font-weight="400" fill="#c7d2fe" text-anchor="middle" opacity="0.9">Notifications that matter</text>
+
+  <!-- CTA -->
+  <rect x="780" y="700" width="360" height="70" rx="35" fill="white"/>
+  <text x="960" y="746" font-family="Outfit, sans-serif" font-size="26" font-weight="600" fill="#4f46e5" text-anchor="middle">Subscribe for more</text>
+
+  <!-- Social handles -->
+  <text x="960" y="850" font-family="Outfit, sans-serif" font-size="20" font-weight="400" fill="#a5b4fc" text-anchor="middle">@shipsignal</text>
+
+  <!-- Video thumbnail placeholders (YouTube end screen style) -->
+  <rect x="150" y="720" width="280" height="158" rx="8" fill="white" opacity="0.1" stroke="white" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="290" y="810" font-family="Outfit, sans-serif" font-size="14" fill="white" text-anchor="middle" opacity="0.5">Next Video</text>
+
+  <rect x="1490" y="720" width="280" height="158" rx="8" fill="white" opacity="0.1" stroke="white" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="1630" y="810" font-family="Outfit, sans-serif" font-size="14" fill="white" text-anchor="middle" opacity="0.5">Playlist</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="820" height="312" viewBox="0 0 820 312" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fb-cover-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="820" height="312" fill="url(#fb-cover-grad)"/>
+
+  <!-- Background decorative waves -->
+  <circle cx="700" cy="156" r="80" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.1"/>
+  <circle cx="700" cy="156" r="130" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.07"/>
+  <circle cx="700" cy="156" r="180" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.04"/>
+
+  <!-- Logo and signal -->
+  <circle cx="80" cy="156" r="24" fill="white"/>
+  <path d="M120 116C138 134 150 146 150 156C150 166 138 178 120 196" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M155 86C180 111 198 134 198 156C198 178 180 201 155 226" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M190 60C222 92 242 124 242 156C242 188 222 220 190 252" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- Brand name -->
+  <text x="280" y="168" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">ShipSignal</text>
+</svg>

@@ -1,0 +1,111 @@
+<svg width="960" height="1620" viewBox="0 0 960 1620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Presentation template showing 3 key slide types (16:9 ratio each = 960x540) -->
+
+  <!-- ========== TITLE SLIDE ========== -->
+  <g id="slide-title">
+    <defs>
+      <linearGradient id="slide-title-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#312e81"/>
+        <stop offset="50%" stop-color="#4f46e5"/>
+        <stop offset="100%" stop-color="#6366f1"/>
+      </linearGradient>
+    </defs>
+
+    <rect width="960" height="540" fill="url(#slide-title-grad)"/>
+
+    <!-- Decorative waves -->
+    <circle cx="800" cy="270" r="200" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.08"/>
+    <circle cx="800" cy="270" r="320" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.05"/>
+    <circle cx="800" cy="270" r="440" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.03"/>
+
+    <!-- Logo -->
+    <circle cx="100" cy="80" r="24" fill="white"/>
+    <path d="M136 52C152 68 164 76 164 80C164 84 152 92 136 108" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M172 32C196 56 212 70 212 80C212 90 196 104 172 128" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+    <!-- Title -->
+    <text x="100" y="280" font-family="Outfit, sans-serif" font-size="56" font-weight="700" fill="white">[Presentation Title]</text>
+
+    <!-- Subtitle -->
+    <text x="100" y="340" font-family="Outfit, sans-serif" font-size="24" font-weight="400" fill="#c7d2fe" opacity="0.9">[Subtitle or date]</text>
+
+    <!-- Presenter -->
+    <text x="100" y="480" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="white">[Presenter Name]</text>
+    <text x="100" y="505" font-family="Outfit, sans-serif" font-size="14" font-weight="400" fill="#c7d2fe" opacity="0.8">[Title] | ShipSignal</text>
+
+    <!-- Slide label -->
+    <text x="880" y="520" font-family="Outfit, sans-serif" font-size="10" fill="white" opacity="0.5" text-anchor="end">TITLE SLIDE</text>
+  </g>
+
+  <!-- ========== CONTENT SLIDE ========== -->
+  <g id="slide-content" transform="translate(0, 540)">
+    <rect width="960" height="540" fill="white"/>
+
+    <!-- Header bar -->
+    <rect x="0" y="0" width="960" height="80" fill="#f9fafb"/>
+
+    <!-- Logo (small) -->
+    <circle cx="50" cy="40" r="14" fill="#6366f1"/>
+    <path d="M70 28C78 36 84 40 84 40C84 40 78 44 70 52" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Slide title -->
+    <text x="110" y="48" font-family="Outfit, sans-serif" font-size="24" font-weight="600" fill="#374151">[Slide Title]</text>
+
+    <!-- Content area -->
+    <rect x="60" y="120" width="400" height="360" rx="8" fill="#f9fafb"/>
+
+    <!-- Bullet points placeholder -->
+    <circle cx="100" cy="170" r="6" fill="#6366f1"/>
+    <text x="120" y="176" font-family="Outfit, sans-serif" font-size="16" fill="#374151">[Key point one]</text>
+
+    <circle cx="100" cy="220" r="6" fill="#6366f1"/>
+    <text x="120" y="226" font-family="Outfit, sans-serif" font-size="16" fill="#374151">[Key point two]</text>
+
+    <circle cx="100" cy="270" r="6" fill="#6366f1"/>
+    <text x="120" y="276" font-family="Outfit, sans-serif" font-size="16" fill="#374151">[Key point three]</text>
+
+    <!-- Visual placeholder (right side) -->
+    <rect x="500" y="120" width="400" height="360" rx="8" fill="#eef2ff" stroke="#c7d2fe" stroke-width="2" stroke-dasharray="8 4"/>
+    <text x="700" y="310" font-family="Outfit, sans-serif" font-size="14" fill="#6366f1" text-anchor="middle">[Image or Chart]</text>
+
+    <!-- Footer -->
+    <text x="480" y="510" font-family="Outfit, sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">ShipSignal | [Presentation Title]</text>
+    <text x="920" y="510" font-family="Outfit, sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">2</text>
+
+    <!-- Slide label -->
+    <text x="880" y="520" font-family="Outfit, sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">CONTENT SLIDE</text>
+  </g>
+
+  <!-- ========== SECTION DIVIDER SLIDE ========== -->
+  <g id="slide-section" transform="translate(0, 1080)">
+    <defs>
+      <linearGradient id="slide-section-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4f46e5"/>
+        <stop offset="100%" stop-color="#6366f1"/>
+      </linearGradient>
+    </defs>
+
+    <rect width="960" height="540" fill="url(#slide-section-grad)"/>
+
+    <!-- Decorative pattern -->
+    <circle cx="100" cy="450" r="100" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.15"/>
+    <circle cx="100" cy="450" r="180" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.1"/>
+
+    <!-- Section number -->
+    <text x="100" y="200" font-family="Outfit, sans-serif" font-size="120" font-weight="800" fill="white" opacity="0.2">01</text>
+
+    <!-- Section title -->
+    <text x="100" y="320" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">[Section Title]</text>
+
+    <!-- Section subtitle -->
+    <text x="100" y="370" font-family="Outfit, sans-serif" font-size="20" font-weight="400" fill="#c7d2fe" opacity="0.9">[Brief description of this section]</text>
+
+    <!-- Logo (bottom right) -->
+    <circle cx="880" cy="480" r="20" fill="white" opacity="0.2"/>
+    <circle cx="880" cy="480" r="8" fill="white"/>
+    <path d="M896 468C904 476 908 480 908 480C908 480 904 484 896 492" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+    <!-- Slide label -->
+    <text x="880" y="520" font-family="Outfit, sans-serif" font-size="10" fill="white" opacity="0.5" text-anchor="end">SECTION DIVIDER</text>
+  </g>
+</svg>

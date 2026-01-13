@@ -1,0 +1,12 @@
+<svg width="210" height="50" viewBox="0 0 210 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shipsignal-grad-primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="36" font-family="Outfit, sans-serif" font-size="32" font-weight="700" fill="url(#shipsignal-grad-primary)">ShipSignal</text>
+  <circle cx="174" cy="28" r="5" fill="#6366f1"/>
+  <path d="M184 18C188 22 190 25 190 28C190 31 188 34 184 38" stroke="#818cf8" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M190 12C196 18 200 23 200 28C200 33 196 38 190 44" stroke="#a5b4fc" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

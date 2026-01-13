@@ -1,0 +1,14 @@
+<svg width="120" height="90" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shipsignal-grad-stacked" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <!-- Signal Icon -->
+  <circle cx="60" cy="25" r="8" fill="#6366f1"/>
+  <path d="M76 10C82 16 86 20 86 25C86 30 82 34 76 40" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M84 2C92 10 98 17 98 25C98 33 92 40 84 48" stroke="#a5b4fc" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.35"/>
+  <!-- Text -->
+  <text x="60" y="75" font-family="Outfit, sans-serif" font-size="24" font-weight="700" fill="url(#shipsignal-grad-stacked)" text-anchor="middle">ShipSignal</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="error-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Broken signal icon -->
+  <circle cx="120" cy="150" r="20" fill="#e0e7ff"/>
+  <circle cx="120" cy="150" r="12" fill="url(#error-grad)"/>
+
+  <!-- Broken/disconnected waves -->
+  <path d="M155 120C165 130 170 140 170 150" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="8 4"/>
+  <path d="M170 150C170 160 165 170 155 180" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="8 4"/>
+
+  <path d="M180 100C195 115 205 132 205 150" stroke="#c7d2fe" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="8 4" opacity="0.6"/>
+  <path d="M205 150C205 168 195 185 180 200" stroke="#c7d2fe" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="8 4" opacity="0.6"/>
+
+  <!-- X mark indicating disconnection -->
+  <circle cx="190" cy="130" r="12" fill="#ef4444" opacity="0.15"/>
+  <path d="M185 125L195 135M195 125L185 135" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 404 Text -->
+  <text x="230" y="160" font-family="Outfit, sans-serif" font-size="64" font-weight="800" fill="url(#error-grad)">404</text>
+
+  <!-- Message -->
+  <text x="200" y="220" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="#6b7280" text-anchor="middle">Signal not found</text>
+  <text x="200" y="245" font-family="Outfit, sans-serif" font-size="14" font-weight="400" fill="#9ca3af" text-anchor="middle">The page you're looking for doesn't exist</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="300" height="250" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="empty-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="150" cy="100" r="70" fill="#eef2ff"/>
+
+  <!-- Signal icon (dormant/waiting) -->
+  <circle cx="130" cy="100" r="15" fill="url(#empty-grad)" opacity="0.3"/>
+  <circle cx="130" cy="100" r="10" fill="url(#empty-grad)"/>
+
+  <!-- Soft waves (waiting state) -->
+  <path d="M160 75C170 85 175 92 175 100C175 108 170 115 160 125" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M180 60C195 75 203 88 203 100C203 112 195 125 180 140" stroke="#c7d2fe" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.25"/>
+
+  <!-- Dotted placeholder lines -->
+  <rect x="80" y="190" width="140" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="100" y="210" width="100" height="6" rx="3" fill="#f3f4f6"/>
+
+  <!-- Message -->
+  <text x="150" y="175" font-family="Outfit, sans-serif" font-size="16" font-weight="600" fill="#6b7280" text-anchor="middle">No signals yet</text>
+</svg>

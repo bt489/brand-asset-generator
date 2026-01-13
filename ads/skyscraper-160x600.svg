@@ -1,0 +1,36 @@
+<svg width="160" height="600" viewBox="0 0 160 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ad-sky-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="160" height="600" fill="url(#ad-sky-grad)"/>
+
+  <!-- Decorative waves -->
+  <circle cx="130" cy="100" r="60" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.1"/>
+  <circle cx="130" cy="100" r="100" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.06"/>
+
+  <!-- Logo -->
+  <circle cx="50" cy="50" r="18" fill="white"/>
+  <path d="M78 32C92 46 100 52 100 50C100 48 92 42 78 56" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M78 44C86 52 90 56 90 58" stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Brand name -->
+  <text x="80" y="120" font-family="Outfit, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">ShipSignal</text>
+
+  <!-- Headline (stacked) -->
+  <text x="80" y="240" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">Ship</text>
+  <text x="80" y="270" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">notifications</text>
+  <text x="80" y="300" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">that</text>
+  <text x="80" y="330" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">matter</text>
+
+  <!-- Subtext -->
+  <text x="80" y="390" font-family="Outfit, sans-serif" font-size="12" font-weight="400" fill="#c7d2fe" text-anchor="middle" opacity="0.9">Real-time alerts</text>
+  <text x="80" y="408" font-family="Outfit, sans-serif" font-size="12" font-weight="400" fill="#c7d2fe" text-anchor="middle" opacity="0.9">for your business</text>
+
+  <!-- CTA Button -->
+  <rect x="20" y="500" width="120" height="44" rx="22" fill="white"/>
+  <text x="80" y="528" font-family="Outfit, sans-serif" font-size="14" font-weight="600" fill="#4f46e5" text-anchor="middle">Get Started</text>
+</svg>

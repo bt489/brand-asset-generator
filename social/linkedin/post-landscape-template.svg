@@ -1,0 +1,30 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="li-landscape-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="628" fill="url(#li-landscape-grad)"/>
+
+  <!-- Decorative waves -->
+  <circle cx="1000" cy="314" r="140" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.08"/>
+  <circle cx="1000" cy="314" r="240" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.05"/>
+  <circle cx="1000" cy="314" r="340" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.03"/>
+
+  <!-- Signal icon -->
+  <circle cx="120" cy="314" r="40" fill="white"/>
+  <path d="M185 254C215 284 235 302 235 314C235 326 215 344 185 374" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M240 204C280 244 308 282 308 314C308 346 280 384 240 424" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M295 158C345 208 378 264 378 314C378 364 345 420 295 470" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- Content -->
+  <text x="440" y="290" font-family="Outfit, sans-serif" font-size="52" font-weight="700" fill="white">[Headline Here]</text>
+  <text x="440" y="360" font-family="Outfit, sans-serif" font-size="24" font-weight="400" fill="#c7d2fe" opacity="0.8">[Supporting insight or description]</text>
+
+  <!-- Logo bottom -->
+  <text x="440" y="560" font-family="Outfit, sans-serif" font-size="22" font-weight="600" fill="white" opacity="0.8">ShipSignal</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ig-profile-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="320" fill="url(#ig-profile-bg)"/>
+
+  <!-- Signal icon -->
+  <circle cx="104" cy="160" r="32" fill="white"/>
+  <path d="M160 104C184 128 200 144 200 160C200 176 184 192 160 216" stroke="white" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M208 64C244 100 268 130 268 160C268 190 244 220 208 256" stroke="white" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M252 32C296 76 320 118 320 160C320 202 296 244 252 288" stroke="white" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

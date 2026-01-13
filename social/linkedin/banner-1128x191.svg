@@ -1,0 +1,28 @@
+<svg width="1128" height="191" viewBox="0 0 1128 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="li-banner-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1128" height="191" fill="url(#li-banner-grad)"/>
+
+  <!-- Background decorative waves -->
+  <circle cx="950" cy="96" r="60" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.1"/>
+  <circle cx="950" cy="96" r="100" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.07"/>
+  <circle cx="950" cy="96" r="140" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.04"/>
+
+  <!-- Logo and signal -->
+  <circle cx="80" cy="96" r="20" fill="white"/>
+  <path d="M114 64C128 78 138 88 138 96C138 104 128 114 114 128" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M144 42C164 62 178 80 178 96C178 112 164 130 144 150" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M174 22C200 48 218 72 218 96C218 120 200 144 174 170" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- Brand name -->
+  <text x="260" y="108" font-family="Outfit, sans-serif" font-size="40" font-weight="700" fill="white">ShipSignal</text>
+
+  <!-- Tagline -->
+  <text x="510" y="108" font-family="Outfit, sans-serif" font-size="18" font-weight="400" fill="#c7d2fe" opacity="0.8">Ship notifications that matter</text>
+</svg>

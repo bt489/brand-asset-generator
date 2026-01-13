@@ -1,0 +1,29 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="twitter-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#twitter-bg-grad)"/>
+
+  <!-- Decorative signal waves -->
+  <circle cx="950" cy="300" r="100" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.1"/>
+  <circle cx="950" cy="300" r="180" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.07"/>
+  <circle cx="950" cy="300" r="260" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.04"/>
+
+  <!-- Logo Icon -->
+  <circle cx="150" cy="300" r="35" fill="white"/>
+  <path d="M205 230C235 260 252 282 252 300C252 318 235 340 205 370" stroke="white" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M250 180C290 220 315 260 315 300C315 340 290 380 250 420" stroke="white" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M295 135C345 185 375 242 375 300C375 358 345 415 295 465" stroke="white" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.35"/>
+
+  <!-- Brand Name -->
+  <text x="420" y="320" font-family="Outfit, sans-serif" font-size="80" font-weight="700" fill="white">ShipSignal</text>
+
+  <!-- Tagline -->
+  <text x="420" y="385" font-family="Outfit, sans-serif" font-size="26" font-weight="400" fill="#c7d2fe" opacity="0.8">Ship notifications that matter</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Universal profile picture for most platforms -->
+  <defs>
+    <linearGradient id="profile-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#profile-bg)"/>
+
+  <!-- Signal icon centered -->
+  <circle cx="130" cy="200" r="40" fill="white"/>
+  <path d="M200 130C230 160 250 180 250 200C250 220 230 240 200 270" stroke="white" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M260 80C305 125 335 162 335 200C335 238 305 275 260 320" stroke="white" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M315 40C370 95 400 147 400 200C400 253 370 305 315 360" stroke="white" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

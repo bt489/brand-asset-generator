@@ -1,0 +1,32 @@
+<svg width="300" height="250" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ad-rect-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="300" height="250" fill="url(#ad-rect-grad)"/>
+
+  <!-- Decorative wave -->
+  <circle cx="250" cy="50" r="60" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.15"/>
+  <circle cx="250" cy="50" r="100" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.1"/>
+
+  <!-- Logo -->
+  <circle cx="40" cy="40" r="14" fill="white"/>
+  <path d="M62 26C72 36 78 40 78 40C78 40 72 44 62 54" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Brand name -->
+  <text x="100" y="46" font-family="Outfit, sans-serif" font-size="18" font-weight="700" fill="white">ShipSignal</text>
+
+  <!-- Headline -->
+  <text x="30" y="110" font-family="Outfit, sans-serif" font-size="24" font-weight="700" fill="white">Ship notifications</text>
+  <text x="30" y="140" font-family="Outfit, sans-serif" font-size="24" font-weight="700" fill="white">that matter</text>
+
+  <!-- Subtext -->
+  <text x="30" y="170" font-family="Outfit, sans-serif" font-size="13" font-weight="400" fill="#c7d2fe" opacity="0.9">Real-time alerts for your business</text>
+
+  <!-- CTA Button -->
+  <rect x="30" y="195" width="130" height="38" rx="19" fill="white"/>
+  <text x="95" y="220" font-family="Outfit, sans-serif" font-size="14" font-weight="600" fill="#4f46e5" text-anchor="middle">Get Started</text>
+</svg>
