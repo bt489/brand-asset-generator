@@ -1,41 +1,26 @@
 <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Zoom/Virtual Meeting Background (1080p) -->
-
   <defs>
-    <linearGradient id="zoom-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="zoom-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1e1b4b"/>
       <stop offset="50%" stop-color="#312e81"/>
       <stop offset="100%" stop-color="#3730a3"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1920" height="1080" fill="url(#zoom-grad)"/>
+  <rect width="1920" height="1080" fill="url(#zoom-bg)"/>
 
-  <!-- Subtle decorative elements (not distracting) -->
-  <circle cx="200" cy="200" r="150" fill="none" stroke="#4f46e5" stroke-width="2" opacity="0.1"/>
-  <circle cx="200" cy="200" r="250" fill="none" stroke="#4f46e5" stroke-width="2" opacity="0.06"/>
+  <!-- Subtle decorative -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#4f46e5" stroke-width="2" opacity="0.08"/>
+  <circle cx="200" cy="200" r="300" fill="none" stroke="#4f46e5" stroke-width="2" opacity="0.04"/>
 
-  <circle cx="1720" cy="880" r="120" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.1"/>
-  <circle cx="1720" cy="880" r="200" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.06"/>
-  <circle cx="1720" cy="880" r="280" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.03"/>
+  <circle cx="1720" cy="880" r="150" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.08"/>
+  <circle cx="1720" cy="880" r="260" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.04"/>
 
-  <!-- Subtle grid pattern -->
-  <g opacity="0.03">
-    <line x1="0" y1="270" x2="1920" y2="270" stroke="#818cf8" stroke-width="1"/>
-    <line x1="0" y1="540" x2="1920" y2="540" stroke="#818cf8" stroke-width="1"/>
-    <line x1="0" y1="810" x2="1920" y2="810" stroke="#818cf8" stroke-width="1"/>
-    <line x1="480" y1="0" x2="480" y2="1080" stroke="#818cf8" stroke-width="1"/>
-    <line x1="960" y1="0" x2="960" y2="1080" stroke="#818cf8" stroke-width="1"/>
-    <line x1="1440" y1="0" x2="1440" y2="1080" stroke="#818cf8" stroke-width="1"/>
+  <!-- Logo watermark (bottom right, subtle) -->
+  <g transform="translate(1700, 970)" opacity="0.25">
+    <circle cx="50" cy="50" r="22" fill="white"/>
+    <path d="M84 28C98 42 106 48 106 50C106 52 98 58 84 72" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
   </g>
 
-  <!-- Logo watermark (subtle, bottom right) -->
-  <g transform="translate(1680, 950)" opacity="0.3">
-    <circle cx="50" cy="50" r="24" fill="white"/>
-    <path d="M86 26C102 42 112 50 112 50C112 50 102 58 86 74" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
-    <path d="M120 8C142 30 156 44 156 50C156 56 142 70 120 92" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.5"/>
-  </g>
-
-  <text x="1780" y="1050" font-family="Outfit, sans-serif" font-size="16" font-weight="600" fill="white" opacity="0.2" text-anchor="end">ShipSignal</text>
+  <text x="1800" y="1050" font-family="Outfit, sans-serif" font-size="14" font-weight="600" fill="white" opacity="0.2" text-anchor="end">ShipSignal</text>
 </svg>

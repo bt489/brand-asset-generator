@@ -2,207 +2,196 @@
 
 ## Brand Overview
 
-**ShipSignal** is a modern, tech-forward brand focused on delivering notifications that matter. Our visual identity reflects clarity, reliability, and seamless communication.
+**Brand Name:** ShipSignal
+**Tagline:** Skip the research. Start building.
+**CTA:** Get tomorrow's ideas
+**Website:** shipsignal.ai
+**Social:** @shipsignal
 
-### Brand Personality
-- **Modern** - Clean, contemporary design language
-- **Reliable** - Trustworthy and dependable
-- **Clear** - Simple, straightforward communication
-- **Technical** - Sophisticated yet approachable
+**Brand Voice:** Straightforward, data-driven, slightly playful
+**Target Audience:** Developers and founders
+**Industry:** SaaS
 
 ---
 
 ## Logo Usage
 
 ### Primary Logo
-The primary logo combines the "ShipSignal" wordmark with the signal icon (broadcasting dot with wave arcs). Use this version whenever possible for maximum brand recognition.
+The ShipSignal logo consists of two elements:
+1. **Logomark:** A broadcasting signal icon (circle with emanating wave arcs)
+2. **Wordmark:** "ShipSignal" in Outfit Bold (700 weight)
 
-### Logo Variations
+### Logo Variants
 | Variant | Use Case |
 |---------|----------|
-| `logo-primary.svg` | Default use on light backgrounds |
-| `logo-stacked.svg` | Tight vertical spaces, app icons |
-| `logomark-only.svg` | Small spaces, favicons, app icons |
-| `wordmark-only.svg` | When the icon would be too small |
-| `logo-monochrome-black.svg` | Single-color print, dark backgrounds |
+| `logo-primary.svg` | Default, full-color on light backgrounds |
+| `logo-stacked.svg` | Vertical layouts, square spaces |
+| `logomark-only.svg` | App icons, favicons, small spaces |
+| `wordmark-only.svg` | When logomark appears separately |
 | `logo-monochrome-white.svg` | Dark backgrounds, overlays |
-| `logo-monochrome-brand.svg` | Simplified brand color usage |
+| `logo-monochrome-black.svg` | Single-color printing |
+| `logo-monochrome-brand.svg` | Brand color emphasis |
 
 ### Clear Space
-Maintain a minimum clear space around the logo equal to the height of the "S" in ShipSignal. This ensures the logo remains visible and uncluttered.
+Maintain clear space around the logo equal to the height of the logomark circle on all sides.
 
 ```
-┌─────────────────────────────────────┐
-│                                     │
-│     ╔═══════════════════════╗       │
-│     ║   [ShipSignal Logo]   ║       │
-│     ╚═══════════════════════╝       │
-│                                     │
-│  ← Minimum clear space = "S" height │
-└─────────────────────────────────────┘
+    ┌─────────────────────────┐
+    │         ○               │
+    │   ○ ))) ShipSignal      │
+    │         ○               │
+    └─────────────────────────┘
+    ○ = minimum clear space (1x logomark height)
 ```
 
 ### Minimum Sizes
-- **Full logo**: 120px wide minimum (digital), 1 inch (print)
-- **Logomark only**: 24px minimum (digital), 0.25 inch (print)
-- **Favicon**: 16px minimum
+- **Full logo:** 120px wide (digital), 1 inch (print)
+- **Logomark only:** 24px (digital), 0.25 inch (print)
+- **Favicon:** 16px minimum
 
 ---
 
 ## Logo Don'ts
 
-❌ **Never do the following:**
-
-1. **Don't stretch or distort** the logo
-2. **Don't rotate** the logo at an angle
-3. **Don't change the colors** outside approved palette
-4. **Don't add effects** (shadows, glows, outlines)
-5. **Don't place on busy backgrounds** without sufficient contrast
-6. **Don't rearrange** the logo elements
-7. **Don't use low-resolution** versions
-8. **Don't add text** directly adjacent to the logo
-9. **Don't use the old logo** or create variations
+❌ **DO NOT** modify the logo colors
+❌ **DO NOT** stretch or distort the logo
+❌ **DO NOT** add effects (shadows, gradients, outlines)
+❌ **DO NOT** rotate the logo
+❌ **DO NOT** change the typeface
+❌ **DO NOT** rearrange logo elements
+❌ **DO NOT** place on busy backgrounds without contrast
+❌ **DO NOT** recreate or redraw the logo
 
 ---
 
-## Color System
+## Color Palette
 
-### Primary Palette
-| Color | Hex | RGB | Usage |
-|-------|-----|-----|-------|
-| Indigo 900 | `#312e81` | 49, 46, 129 | Dark backgrounds, headers |
-| Indigo 800 | `#3730a3` | 55, 48, 163 | Secondary dark |
-| Indigo 700 | `#4338ca` | 67, 56, 202 | Hover states |
-| Indigo 600 | `#4f46e5` | 79, 70, 229 | **Primary brand color** |
-| Indigo 500 | `#6366f1` | 99, 102, 241 | **Primary interactive** |
-| Indigo 400 | `#818cf8` | 129, 140, 248 | Links, accents |
-| Indigo 300 | `#a5b4fc` | 165, 180, 252 | Light accents |
-| Indigo 200 | `#c7d2fe` | 199, 210, 254 | Subtle backgrounds |
-| Indigo 100 | `#e0e7ff` | 224, 231, 255 | Very light backgrounds |
-| Indigo 50 | `#eef2ff` | 238, 242, 255 | Tints, highlights |
+### Primary Colors
+| Name | Hex | RGB | Use |
+|------|-----|-----|-----|
+| Indigo 600 | `#4f46e5` | 79, 70, 229 | Primary brand, CTAs |
+| Indigo 500 | `#6366f1` | 99, 102, 241 | Primary accent |
+| Indigo 400 | `#818cf8` | 129, 140, 248 | Secondary accent |
+| Indigo 300 | `#a5b4fc` | 165, 180, 252 | Light accent |
+| Indigo 200 | `#c7d2fe` | 199, 210, 254 | Backgrounds |
 
-### Neutral Palette
-| Color | Hex | Usage |
-|-------|-----|-------|
+### Neutral Colors
+| Name | Hex | Use |
+|------|-----|-----|
+| White | `#ffffff` | Backgrounds, text on dark |
 | Gray 900 | `#111827` | Primary text |
-| Gray 700 | `#374151` | Secondary text |
-| Gray 500 | `#6b7280` | Tertiary text |
-| Gray 300 | `#d1d5db` | Borders |
-| Gray 100 | `#f3f4f6` | Backgrounds |
-| White | `#ffffff` | Base backgrounds |
-
-### Semantic Colors
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Success | `#10b981` | Positive actions, confirmations |
-| Warning | `#f59e0b` | Caution states |
-| Error | `#ef4444` | Errors, destructive actions |
-| Info | `#3b82f6` | Informational messages |
+| Gray 800 | `#1f2937` | Secondary text, dark UI |
+| Gray 100 | `#f3f4f6` | Light backgrounds |
 
 ### Gradients
+**Primary Gradient:**
 ```css
-/* Primary Gradient */
-linear-gradient(90deg, #4f46e5 0%, #818cf8 100%)
+background: linear-gradient(135deg, #4f46e5 0%, #6366f1 50%, #818cf8 100%);
+```
 
-/* Light Gradient (for dark mode text) */
-linear-gradient(90deg, #818cf8 0%, #c7d2fe 100%)
-
-/* Dark Gradient (backgrounds) */
-linear-gradient(90deg, #312e81 0%, #4f46e5 100%)
+**Dark Gradient (backgrounds):**
+```css
+background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #3730a3 100%);
 ```
 
 ---
 
 ## Typography
 
-### Primary Font: Outfit
-Outfit is a geometric sans-serif typeface that balances modernity with warmth. It's available on Google Fonts.
-
-**Font Import:**
-```css
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
-```
+### Primary Typeface
+**Outfit** - Google Font
+https://fonts.google.com/specimen/Outfit
 
 ### Type Scale
-| Style | Size | Weight | Line Height | Use Case |
-|-------|------|--------|-------------|----------|
-| Display | 60px | 700 | 1.1 | Hero headlines |
-| H1 | 48px | 700 | 1.25 | Page titles |
-| H2 | 36px | 700 | 1.25 | Section headers |
-| H3 | 30px | 600 | 1.375 | Subsections |
-| H4 | 24px | 600 | 1.375 | Card titles |
-| H5 | 20px | 500 | 1.5 | Small headers |
-| Body Large | 18px | 400 | 1.625 | Lead paragraphs |
-| Body | 16px | 400 | 1.5 | Default text |
-| Body Small | 14px | 400 | 1.5 | Secondary text |
-| Caption | 12px | 400 | 1.5 | Labels, metadata |
+| Element | Size | Weight | Line Height |
+|---------|------|--------|-------------|
+| H1 | 72px | 700 | 1.1 |
+| H2 | 48px | 700 | 1.2 |
+| H3 | 32px | 700 | 1.3 |
+| H4 | 24px | 600 | 1.4 |
+| Body Large | 20px | 400 | 1.6 |
+| Body | 16px | 400 | 1.6 |
+| Small | 14px | 400 | 1.5 |
+| Caption | 12px | 400 | 1.4 |
 
-### Fallback Fonts
-```css
-font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+### Font Loading
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 ```
 
 ---
 
-## Visual Elements
+## Voice & Tone
 
-### Signal Icon
-The signal icon (broadcasting dot with wave arcs) is our primary visual motif. It represents:
-- Communication
-- Broadcasting/notifications
-- Connectivity
-- Activity/engagement
+### Brand Personality
+- **Straightforward:** Clear, direct communication. No fluff.
+- **Data-driven:** Facts and evidence over opinions.
+- **Slightly playful:** Approachable without being silly.
 
-### Usage Guidelines
-- The signal icon can be used independently as a logomark
-- Waves should always emanate from left to right
-- Maintain the proportional relationship between dot and waves
-- Use decreasing opacity for outer waves (100% → 60% → 35%)
+### Writing Guidelines
+- Lead with value
+- Use active voice
+- Keep sentences short
+- Avoid jargon (unless audience-appropriate)
+- Be confident, not arrogant
 
-### Decorative Applications
-- Background patterns using signal motif
-- Hero section decorations
-- Loading animations
-- Empty states
+### Example Copy
+✅ "Skip the research. Start building."
+✅ "Get tomorrow's ideas"
+✅ "Daily SaaS ideas. Validated. Ready to build."
 
----
-
-## Photography & Imagery
-
-### Style Guidelines
-- Clean, modern aesthetic
-- High contrast with vibrant colors
-- Tech/digital themes preferred
-- Avoid cluttered or busy compositions
-- People should appear professional and approachable
-
-### Image Treatment
-- Apply brand gradient overlays when appropriate
-- Use indigo color tints for monotone effects
-- Maintain adequate contrast for text overlays
+❌ "We're revolutionizing the way developers..."
+❌ "Synergize your development workflow..."
 
 ---
 
-## File Naming Convention
+## Asset Checklist
+
+### Required for Launch
+- [ ] Primary logo on website
+- [ ] Favicon set installed
+- [ ] OG image configured
+- [ ] Social profile pictures uploaded
+- [ ] Social cover images set
+
+### Social Platform Specs
+| Platform | Profile | Cover/Header |
+|----------|---------|--------------|
+| X/Twitter | 400x400 | 1500x500 |
+| LinkedIn | 400x400 | 1128x191 |
+| Instagram | 320x320 | N/A |
+| Facebook | 400x400 | 820x312 |
+| YouTube | 800x800 | 2560x1440 |
+
+---
+
+## File Organization
 
 ```
-shipsignal-[asset-type]-[variant]-[size].[format]
+branding-design/
+├── logos/          # All logo variations
+├── favicons/       # Favicon system
+├── tokens/         # CSS & JSON design tokens
+├── web/            # Website assets (OG, headers)
+├── social/         # Platform-specific assets
+│   ├── twitter/
+│   ├── instagram/
+│   ├── linkedin/
+│   ├── facebook/
+│   └── youtube/
+├── email/          # Email marketing assets
+├── ads/            # Display advertising
+├── documents/      # Business documents
+├── video/          # Video/motion assets
+├── patterns/       # Background patterns
+└── specs/          # This documentation
 ```
-
-**Examples:**
-- `shipsignal-logo-primary-400x100.png`
-- `shipsignal-favicon-32.png`
-- `shipsignal-og-default-1200x630.png`
-- `shipsignal-profile-instagram-320.png`
 
 ---
 
 ## Contact
 
 For brand questions or asset requests:
-- Email: hello@shipsignal.com
-- Website: shipsignal.com
-
----
-
-*Version 1.0 | Last Updated: 2024*
+**Website:** shipsignal.ai
+**Social:** @shipsignal

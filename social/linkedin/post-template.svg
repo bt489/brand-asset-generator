@@ -1,0 +1,31 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="li-post-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="628" fill="url(#li-post-bg)"/>
+
+  <!-- Decorative -->
+  <circle cx="1000" cy="314" r="150" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.08"/>
+  <circle cx="1000" cy="314" r="280" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.04"/>
+
+  <!-- Signal icon -->
+  <circle cx="120" cy="314" r="40" fill="white"/>
+  <path d="M185 244C215 274 235 296 235 314C235 332 215 354 185 384" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M240 194C280 234 308 276 308 314C308 352 280 394 240 434" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Content -->
+  <text x="380" y="290" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">Skip the research.</text>
+  <text x="380" y="360" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">Start building.</text>
+
+  <!-- CTA -->
+  <rect x="380" y="410" width="280" height="56" rx="28" fill="white"/>
+  <text x="520" y="448" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
+
+  <!-- Footer -->
+  <text x="380" y="560" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="#a5b4fc">ShipSignal · shipsignal.ai</text>
+</svg>

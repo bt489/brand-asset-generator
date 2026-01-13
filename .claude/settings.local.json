@@ -3,7 +3,10 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nBrand asset generator prompt and example output\n\nTurn one logo into 70+ brand assets using AI:\n- Logo variations, favicons, design tokens\n- Social media kit \\(Instagram, Twitter, LinkedIn, YouTube, Facebook\\)\n- Web assets \\(OG images, error pages, loading states\\)\n- Business documents \\(letterhead, cards, presentations\\)\n- Display ads, email templates, video assets\n- Brand guidelines and Figma specs\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nBrand asset generator prompt and example output\n\nTurn one logo into 70+ brand assets using AI:\n- Logo variations, favicons, design tokens\n- Social media kit \\(Instagram, Twitter, LinkedIn, YouTube, Facebook\\)\n- Web assets \\(OG images, error pages, loading states\\)\n- Business documents \\(letterhead, cards, presentations\\)\n- Display ads, email templates, video assets\n- Brand guidelines and Figma specs\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }

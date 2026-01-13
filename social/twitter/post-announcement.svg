@@ -1,0 +1,32 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="x-announce-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#x-announce-bg)"/>
+
+  <!-- Decorative waves -->
+  <circle cx="950" cy="337" r="200" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.06"/>
+  <circle cx="950" cy="337" r="350" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.03"/>
+
+  <!-- Large signal icon -->
+  <circle cx="200" cy="337" r="60" fill="white" opacity="0.15"/>
+  <circle cx="200" cy="337" r="40" fill="white"/>
+  <path d="M280 247C320 287 345 315 345 337C345 359 320 387 280 427" stroke="white" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M350 187C405 242 440 292 440 337C440 382 405 432 350 487" stroke="white" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Headline placeholder -->
+  <text x="520" y="320" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">[Announcement]</text>
+  <text x="520" y="390" font-family="Outfit, sans-serif" font-size="24" font-weight="400" fill="#c7d2fe">[Details go here]</text>
+
+  <!-- CTA -->
+  <rect x="520" y="440" width="280" height="56" rx="28" fill="white"/>
+  <text x="660" y="478" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
+
+  <!-- Footer -->
+  <text x="100" y="620" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="#a5b4fc">@shipsignal · shipsignal.ai</text>
+</svg>

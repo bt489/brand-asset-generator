@@ -1,26 +1,29 @@
 <svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="x-post-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="x-post-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#312e81"/>
       <stop offset="50%" stop-color="#4f46e5"/>
       <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="675" fill="url(#x-post-grad)"/>
+  <rect width="1200" height="675" fill="url(#x-post-bg)"/>
 
   <!-- Decorative waves -->
   <circle cx="1000" cy="337" r="150" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.08"/>
-  <circle cx="1000" cy="337" r="260" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.05"/>
-  <circle cx="1000" cy="337" r="370" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.03"/>
+  <circle cx="1000" cy="337" r="280" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.05"/>
 
-  <!-- Content -->
-  <text x="100" y="310" font-family="Outfit, sans-serif" font-size="56" font-weight="700" fill="white">[Tweet Visual]</text>
-  <text x="100" y="380" font-family="Outfit, sans-serif" font-size="26" font-weight="400" fill="#c7d2fe" opacity="0.8">[Key message or call-to-action]</text>
+  <!-- Main headline area -->
+  <text x="100" y="300" font-family="Outfit, sans-serif" font-size="56" font-weight="700" fill="white">Skip the research.</text>
+  <text x="100" y="380" font-family="Outfit, sans-serif" font-size="56" font-weight="700" fill="white">Start building.</text>
 
-  <!-- Logo -->
-  <circle cx="100" cy="600" r="20" fill="white"/>
-  <path d="M132 576C146 590 154 596 154 600C154 604 146 610 132 624" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <text x="175" y="608" font-family="Outfit, sans-serif" font-size="24" font-weight="600" fill="white">ShipSignal</text>
+  <!-- CTA -->
+  <rect x="100" y="440" width="320" height="60" rx="30" fill="white"/>
+  <text x="260" y="482" font-family="Outfit, sans-serif" font-size="22" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
+
+  <!-- Logo and handle -->
+  <circle cx="100" cy="600" r="18" fill="white"/>
+  <path d="M126 582C136 592 142 596 142 600C142 604 136 608 126 618" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <text x="165" y="608" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="white">@shipsignal</text>
+  <text x="340" y="608" font-family="Outfit, sans-serif" font-size="18" font-weight="400" fill="#a5b4fc">shipsignal.ai</text>
 </svg>

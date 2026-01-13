@@ -1,24 +1,15 @@
-<svg width="600" height="160" viewBox="0 0 600 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Footer background -->
-  <rect width="600" height="160" fill="#f9fafb"/>
+<svg width="600" height="140" viewBox="0 0 600 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="140" fill="#f9fafb"/>
 
-  <!-- Divider line -->
   <line x1="40" y1="20" x2="560" y2="20" stroke="#e5e7eb" stroke-width="1"/>
 
-  <!-- Logo (small) -->
-  <circle cx="60" cy="70" r="12" fill="#6366f1"/>
-  <path d="M80 58C88 66 92 70 92 70C92 70 88 74 80 82" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Logo small -->
+  <circle cx="55" cy="65" r="12" fill="#6366f1"/>
+  <path d="M75 53C83 61 87 65 87 65C87 65 83 69 75 77" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
 
-  <!-- Brand name -->
-  <text x="105" y="76" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="600" fill="#374151">ShipSignal</text>
+  <text x="100" y="72" font-family="Outfit, Arial, sans-serif" font-size="16" font-weight="600" fill="#374151">ShipSignal</text>
+  <text x="220" y="72" font-family="Outfit, Arial, sans-serif" font-size="14" font-weight="400" fill="#6366f1">shipsignal.ai</text>
 
-  <!-- Social icons placeholder -->
-  <circle cx="440" cy="70" r="16" fill="#e5e7eb"/>
-  <circle cx="480" cy="70" r="16" fill="#e5e7eb"/>
-  <circle cx="520" cy="70" r="16" fill="#e5e7eb"/>
-  <circle cx="560" cy="70" r="16" fill="#e5e7eb"/>
-
-  <!-- Footer text -->
-  <text x="300" y="120" font-family="Outfit, Arial, sans-serif" font-size="12" fill="#9ca3af" text-anchor="middle">You're receiving this because you signed up for ShipSignal updates.</text>
-  <text x="300" y="140" font-family="Outfit, Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle">Unsubscribe | Manage Preferences</text>
+  <text x="300" y="110" font-family="Outfit, Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Skip the research. Start building.</text>
+  <text x="300" y="128" font-family="Outfit, Arial, sans-serif" font-size="11" fill="#6366f1" text-anchor="middle">Unsubscribe | @shipsignal</text>
 </svg>

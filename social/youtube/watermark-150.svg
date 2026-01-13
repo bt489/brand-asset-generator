@@ -1,6 +1,0 @@
-<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- YouTube watermark (shows in corner of videos) -->
-  <circle cx="45" cy="75" r="15" fill="white"/>
-  <path d="M75 50C88 63 96 70 96 75C96 80 88 87 75 100" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
-  <path d="M100 32C118 50 130 63 130 75C130 87 118 100 100 118" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
-</svg>

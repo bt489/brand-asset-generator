@@ -1,18 +1,20 @@
 /**
  * ShipSignal Brand Colors
- * Design Tokens for CSS
+ * Extracted from logo - do not modify
  */
 
 :root {
-  /* Primary Brand Colors */
-  --shipsignal-indigo-900: #312e81;
-  --shipsignal-indigo-800: #3730a3;
-  --shipsignal-indigo-700: #4338ca;
+  /* Primary Brand Colors (from logo) */
   --shipsignal-indigo-600: #4f46e5;
   --shipsignal-indigo-500: #6366f1;
   --shipsignal-indigo-400: #818cf8;
   --shipsignal-indigo-300: #a5b4fc;
   --shipsignal-indigo-200: #c7d2fe;
+
+  /* Extended palette */
+  --shipsignal-indigo-900: #312e81;
+  --shipsignal-indigo-800: #3730a3;
+  --shipsignal-indigo-700: #4338ca;
   --shipsignal-indigo-100: #e0e7ff;
   --shipsignal-indigo-50: #eef2ff;
 
@@ -20,14 +22,10 @@
   --shipsignal-primary: var(--shipsignal-indigo-500);
   --shipsignal-primary-dark: var(--shipsignal-indigo-600);
   --shipsignal-primary-light: var(--shipsignal-indigo-400);
-  --shipsignal-accent: var(--shipsignal-indigo-300);
-  --shipsignal-subtle: var(--shipsignal-indigo-100);
 
-  /* Gradients */
+  /* Gradients (from logo) */
   --shipsignal-gradient-primary: linear-gradient(90deg, #4f46e5 0%, #818cf8 100%);
   --shipsignal-gradient-light: linear-gradient(90deg, #818cf8 0%, #c7d2fe 100%);
-  --shipsignal-gradient-dark: linear-gradient(90deg, #312e81 0%, #4f46e5 100%);
-  --shipsignal-gradient-radial: radial-gradient(circle, #6366f1 0%, #4f46e5 100%);
 
   /* Neutral Colors */
   --shipsignal-gray-900: #111827;
@@ -43,51 +41,7 @@
 
   /* Semantic Colors */
   --shipsignal-success: #10b981;
-  --shipsignal-success-light: #34d399;
   --shipsignal-warning: #f59e0b;
-  --shipsignal-warning-light: #fbbf24;
   --shipsignal-error: #ef4444;
-  --shipsignal-error-light: #f87171;
   --shipsignal-info: #3b82f6;
-  --shipsignal-info-light: #60a5fa;
-
-  /* Background Colors */
-  --shipsignal-bg-primary: #ffffff;
-  --shipsignal-bg-secondary: var(--shipsignal-gray-50);
-  --shipsignal-bg-tertiary: var(--shipsignal-gray-100);
-  --shipsignal-bg-brand: var(--shipsignal-indigo-50);
-  --shipsignal-bg-dark: var(--shipsignal-gray-900);
-  --shipsignal-bg-dark-secondary: var(--shipsignal-gray-800);
-
-  /* Text Colors */
-  --shipsignal-text-primary: var(--shipsignal-gray-900);
-  --shipsignal-text-secondary: var(--shipsignal-gray-600);
-  --shipsignal-text-tertiary: var(--shipsignal-gray-400);
-  --shipsignal-text-inverse: #ffffff;
-  --shipsignal-text-brand: var(--shipsignal-indigo-600);
-
-  /* Border Colors */
-  --shipsignal-border-light: var(--shipsignal-gray-200);
-  --shipsignal-border-medium: var(--shipsignal-gray-300);
-  --shipsignal-border-brand: var(--shipsignal-indigo-300);
-
-  /* Shadow Colors */
-  --shipsignal-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shipsignal-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-  --shipsignal-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
-  --shipsignal-shadow-brand: 0 4px 14px 0 rgba(99, 102, 241, 0.25);
-}
-
-/* Dark Mode Variables */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --shipsignal-bg-primary: var(--shipsignal-gray-900);
-    --shipsignal-bg-secondary: var(--shipsignal-gray-800);
-    --shipsignal-bg-tertiary: var(--shipsignal-gray-700);
-    --shipsignal-text-primary: #ffffff;
-    --shipsignal-text-secondary: var(--shipsignal-gray-300);
-    --shipsignal-text-tertiary: var(--shipsignal-gray-500);
-    --shipsignal-border-light: var(--shipsignal-gray-700);
-    --shipsignal-border-medium: var(--shipsignal-gray-600);
-  }
 }
