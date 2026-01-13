@@ -9,7 +9,7 @@
 
   <rect width="1080" height="1080" fill="url(#ig-post-bg)"/>
 
-  <!-- Decorative waves -->
+  <!-- Decorative background waves -->
   <circle cx="850" cy="250" r="180" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.08"/>
   <circle cx="850" cy="250" r="300" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.05"/>
 
@@ -21,9 +21,10 @@
   <rect x="80" y="650" width="360" height="70" rx="35" fill="white"/>
   <text x="260" y="698" font-family="Outfit, sans-serif" font-size="26" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
 
-  <!-- Logo -->
+  <!-- Logo with 2 waves -->
   <circle cx="100" cy="980" r="24" fill="white"/>
-  <path d="M136 952C152 968 162 976 162 980C162 984 152 992 136 1008" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
-  <text x="185" y="990" font-family="Outfit, sans-serif" font-size="28" font-weight="600" fill="white">ShipSignal</text>
-  <text x="400" y="990" font-family="Outfit, sans-serif" font-size="22" font-weight="400" fill="#a5b4fc">shipsignal.ai</text>
+  <path d="M140 950C160 970 174 978 174 980C174 982 160 990 140 1010" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M172 926C198 952 216 968 216 980C216 992 198 1008 172 1034" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <text x="240" y="990" font-family="Outfit, sans-serif" font-size="28" font-weight="600" fill="white">ShipSignal</text>
+  <text x="455" y="990" font-family="Outfit, sans-serif" font-size="22" font-weight="400" fill="#a5b4fc">shipsignal.ai</text>
 </svg>

@@ -8,13 +8,14 @@
 
   <rect width="300" height="250" fill="url(#ad-mr-bg)"/>
 
-  <!-- Decorative -->
+  <!-- Decorative background -->
   <circle cx="260" cy="40" r="60" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.15"/>
 
-  <!-- Logo -->
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="40" cy="40" r="14" fill="white"/>
-  <path d="M62 26C72 36 78 40 78 40C78 40 72 44 62 54" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <text x="95" y="46" font-family="Outfit, sans-serif" font-size="16" font-weight="700" fill="white">ShipSignal</text>
+  <path d="M64 24C76 36 84 40 84 40C84 40 76 44 64 56" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M85 11C101 27 112 35 112 40C112 45 101 53 85 69" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <text x="125" y="46" font-family="Outfit, sans-serif" font-size="16" font-weight="700" fill="white">ShipSignal</text>
 
   <!-- Headline -->
   <text x="25" y="105" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="white">Skip the research.</text>

@@ -9,7 +9,7 @@
 
   <rect width="1080" height="1920" fill="url(#ig-story-bg)"/>
 
-  <!-- Decorative waves -->
+  <!-- Decorative background waves -->
   <circle cx="850" cy="350" r="250" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.08"/>
   <circle cx="850" cy="350" r="400" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.05"/>
 
@@ -21,8 +21,9 @@
   <rect x="290" y="1100" width="500" height="80" rx="40" fill="white"/>
   <text x="540" y="1155" font-family="Outfit, sans-serif" font-size="30" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
 
-  <!-- Logo bottom -->
-  <circle cx="480" cy="1700" r="28" fill="white"/>
-  <path d="M520 1665C538 1683 550 1693 550 1700C550 1707 538 1717 520 1735" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Logo bottom with 2 waves -->
+  <circle cx="470" cy="1700" r="28" fill="white"/>
+  <path d="M518 1662C542 1686 558 1696 558 1700C558 1704 542 1714 518 1738" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M556 1632C588 1664 610 1684 610 1700C610 1716 588 1736 556 1768" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.4"/>
   <text x="540" y="1800" font-family="Outfit, sans-serif" font-size="28" font-weight="600" fill="white" text-anchor="middle">@shipsignal</text>
 </svg>

@@ -3,12 +3,13 @@
 
   <line x1="40" y1="20" x2="560" y2="20" stroke="#e5e7eb" stroke-width="1"/>
 
-  <!-- Logo small -->
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="55" cy="65" r="12" fill="#6366f1"/>
-  <path d="M75 53C83 61 87 65 87 65C87 65 83 69 75 77" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M76 50C86 60 92 64 92 65C92 66 86 70 76 80" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M94 38C108 52 118 60 118 65C118 70 108 78 94 92" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
 
-  <text x="100" y="72" font-family="Outfit, Arial, sans-serif" font-size="16" font-weight="600" fill="#374151">ShipSignal</text>
-  <text x="220" y="72" font-family="Outfit, Arial, sans-serif" font-size="14" font-weight="400" fill="#6366f1">shipsignal.ai</text>
+  <text x="135" y="72" font-family="Outfit, Arial, sans-serif" font-size="16" font-weight="600" fill="#374151">ShipSignal</text>
+  <text x="265" y="72" font-family="Outfit, Arial, sans-serif" font-size="14" font-weight="400" fill="#6366f1">shipsignal.ai</text>
 
   <text x="300" y="110" font-family="Outfit, Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">Skip the research. Start building.</text>
   <text x="300" y="128" font-family="Outfit, Arial, sans-serif" font-size="11" fill="#6366f1" text-anchor="middle">Unsubscribe | @shipsignal</text>

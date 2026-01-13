@@ -9,14 +9,14 @@
 
   <rect width="1920" height="1080" fill="url(#outro-bg)"/>
 
-  <!-- Decorative -->
+  <!-- Decorative background -->
   <circle cx="1600" cy="540" r="350" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.06"/>
   <circle cx="1600" cy="540" r="550" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.03"/>
 
-  <!-- Logo centered -->
-  <circle cx="860" cy="400" r="60" fill="white"/>
-  <path d="M960 300C1010 350 1040 380 1040 400C1040 420 1010 450 960 500" stroke="white" stroke-width="16" stroke-linecap="round" fill="none"/>
-  <path d="M1050 220C1115 285 1155 345 1155 400C1155 455 1115 515 1050 580" stroke="white" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Signal icon centered with exactly 2 waves -->
+  <circle cx="800" cy="400" r="60" fill="white"/>
+  <path d="M900 300C960 360 1000 384 1000 400C1000 416 960 440 900 500" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M980 220C1060 300 1112 356 1112 400C1112 444 1060 500 980 580" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Brand -->
   <text x="960" y="580" font-family="Outfit, sans-serif" font-size="72" font-weight="700" fill="white" text-anchor="middle">ShipSignal</text>

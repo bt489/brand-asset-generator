@@ -5,12 +5,13 @@
     <rect x="0" y="0" width="480" height="110" rx="8" fill="#1f2937" opacity="0.9"/>
     <rect x="0" y="0" width="5" height="110" rx="2" fill="#6366f1"/>
 
-    <!-- Logo -->
+    <!-- Signal icon with exactly 2 waves -->
     <circle cx="45" cy="55" r="16" fill="#6366f1"/>
-    <path d="M69 41C79 51 85 55 85 55C85 55 79 59 69 69" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M72 38C84 50 92 54 92 55C92 56 84 60 72 72" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M96 25C112 41 124 50 124 55C124 60 112 69 96 85" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
 
     <!-- Name/Title -->
-    <text x="105" y="48" font-family="Outfit, sans-serif" font-size="26" font-weight="700" fill="white">[Speaker Name]</text>
-    <text x="105" y="78" font-family="Outfit, sans-serif" font-size="16" font-weight="400" fill="#a5b4fc">[Title] · ShipSignal</text>
+    <text x="145" y="48" font-family="Outfit, sans-serif" font-size="26" font-weight="700" fill="white">[Speaker Name]</text>
+    <text x="145" y="78" font-family="Outfit, sans-serif" font-size="16" font-weight="400" fill="#a5b4fc">[Title] · ShipSignal</text>
   </g>
 </svg>

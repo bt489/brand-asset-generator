@@ -8,10 +8,12 @@
 
   <rect width="320" height="50" fill="url(#ad-mob-bg)"/>
 
-  <circle cx="28" cy="25" r="10" fill="white"/>
-  <path d="M44 15C50 21 54 24 54 25C54 26 50 29 44 35" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Signal icon with exactly 2 waves -->
+  <circle cx="26" cy="25" r="9" fill="white"/>
+  <path d="M42 14C50 22 55 24 55 25C55 26 50 28 42 36" stroke="white" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M56 7C66 17 72 22 72 25C72 28 66 33 56 43" stroke="white" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
 
-  <text x="70" y="30" font-family="Outfit, sans-serif" font-size="13" font-weight="600" fill="white">Skip the research. Start building.</text>
+  <text x="85" y="30" font-family="Outfit, sans-serif" font-size="12" font-weight="600" fill="white">Skip the research. Start building.</text>
 
   <rect x="255" y="12" width="55" height="26" rx="13" fill="white"/>
   <text x="282" y="30" font-family="Outfit, sans-serif" font-size="10" font-weight="600" fill="#4f46e5" text-anchor="middle">Try it</text>

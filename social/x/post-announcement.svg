@@ -9,23 +9,23 @@
 
   <rect width="1200" height="675" fill="url(#x-announce-bg)"/>
 
-  <!-- Decorative waves -->
+  <!-- Decorative background waves -->
   <circle cx="950" cy="337" r="200" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.06"/>
   <circle cx="950" cy="337" r="350" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.03"/>
 
-  <!-- Large signal icon -->
+  <!-- Large signal icon with exactly 2 waves -->
   <circle cx="200" cy="337" r="60" fill="white" opacity="0.15"/>
   <circle cx="200" cy="337" r="40" fill="white"/>
-  <path d="M280 247C320 287 345 315 345 337C345 359 320 387 280 427" stroke="white" stroke-width="12" stroke-linecap="round" fill="none"/>
-  <path d="M350 187C405 242 440 292 440 337C440 382 405 432 350 487" stroke="white" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M272 253C316 297 344 320 344 337C344 354 316 377 272 421" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M328 193C388 253 428 298 428 337C428 376 388 421 328 481" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Headline placeholder -->
-  <text x="520" y="320" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">[Announcement]</text>
-  <text x="520" y="390" font-family="Outfit, sans-serif" font-size="24" font-weight="400" fill="#c7d2fe">[Details go here]</text>
+  <text x="500" y="320" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">[Announcement]</text>
+  <text x="500" y="390" font-family="Outfit, sans-serif" font-size="24" font-weight="400" fill="#c7d2fe">[Details go here]</text>
 
   <!-- CTA -->
-  <rect x="520" y="440" width="280" height="56" rx="28" fill="white"/>
-  <text x="660" y="478" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
+  <rect x="500" y="440" width="280" height="56" rx="28" fill="white"/>
+  <text x="640" y="478" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
 
   <!-- Footer -->
   <text x="100" y="620" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="#a5b4fc">@shipsignal · shipsignal.ai</text>

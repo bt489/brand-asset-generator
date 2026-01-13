@@ -9,16 +9,16 @@
 
   <rect width="820" height="312" fill="url(#fb-cover-bg)"/>
 
-  <!-- Decorative -->
+  <!-- Decorative background -->
   <circle cx="720" cy="156" r="100" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.1"/>
   <circle cx="720" cy="156" r="170" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.06"/>
 
-  <!-- Logo -->
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="80" cy="156" r="24" fill="white"/>
-  <path d="M120 116C138 134 150 146 150 156C150 166 138 178 120 196" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
-  <path d="M155 86C180 111 198 134 198 156C198 178 180 201 155 226" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M122 114C146 138 162 148 162 156C162 164 146 174 122 198" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M156 84C188 116 208 138 208 156C208 174 188 196 156 228" stroke="white" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Brand -->
-  <text x="240" y="145" font-family="Outfit, sans-serif" font-size="42" font-weight="700" fill="white">ShipSignal</text>
-  <text x="240" y="190" font-family="Outfit, sans-serif" font-size="20" font-weight="400" fill="#c7d2fe">Skip the research. Start building.</text>
+  <text x="260" y="145" font-family="Outfit, sans-serif" font-size="42" font-weight="700" fill="white">ShipSignal</text>
+  <text x="260" y="190" font-family="Outfit, sans-serif" font-size="20" font-weight="400" fill="#c7d2fe">Skip the research. Start building.</text>
 </svg>

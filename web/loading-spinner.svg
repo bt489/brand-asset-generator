@@ -7,7 +7,8 @@
     .wave1 { animation: wave1 1.5s ease-in-out infinite 0.2s; }
     .wave2 { animation: wave2 1.5s ease-in-out infinite 0.4s; }
   </style>
-  <circle class="dot" cx="12" cy="24" r="6" fill="#6366f1"/>
-  <path class="wave1" d="M26 12C32 18 36 21 36 24C36 27 32 30 26 36" stroke="#6366f1" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <path class="wave2" d="M34 6C42 14 48 19 48 24C48 29 42 34 34 42" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Signal icon with 2 waves - properly contained within viewBox -->
+  <circle class="dot" cx="10" cy="24" r="5" fill="#6366f1"/>
+  <path class="wave1" d="M20 14C26 20 30 22 30 24C30 26 26 28 20 34" stroke="#6366f1" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path class="wave2" d="M28 7C37 16 42 20 42 24C42 28 37 32 28 41" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none"/>
 </svg>

@@ -9,7 +9,7 @@
 
   <rect width="1280" height="720" fill="url(#yt-thumb-bg)"/>
 
-  <!-- Decorative -->
+  <!-- Decorative background -->
   <circle cx="1080" cy="360" r="200" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.08"/>
   <circle cx="1080" cy="360" r="350" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.04"/>
 
@@ -21,7 +21,8 @@
   <rect x="80" y="450" width="200" height="50" rx="25" fill="#ef4444"/>
   <text x="180" y="485" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">NEW</text>
 
-  <!-- Logo -->
-  <circle cx="1160" cy="640" r="24" fill="white"/>
-  <path d="M1195 612C1210 627 1220 635 1220 640C1220 645 1210 653 1195 668" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Logo with 2 waves -->
+  <circle cx="1140" cy="640" r="24" fill="white"/>
+  <path d="M1180 608C1198 626 1210 636 1210 640C1210 644 1198 654 1180 672" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M1210 582C1234 606 1250 624 1250 640C1250 656 1234 674 1210 698" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.4"/>
 </svg>

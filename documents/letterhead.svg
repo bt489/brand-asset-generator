@@ -11,12 +11,12 @@
   <!-- Header accent -->
   <rect x="0" y="0" width="612" height="6" fill="url(#lh-accent)"/>
 
-  <!-- Logo -->
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="72" cy="55" r="16" fill="#6366f1"/>
-  <path d="M96 41C106 51 112 55 112 55C112 55 106 59 96 69" stroke="#818cf8" stroke-width="4" stroke-linecap="round" fill="none"/>
-  <path d="M120 33C134 47 142 53 142 55C142 57 134 63 120 77" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M98 37C112 51 122 55 122 55C122 55 112 59 98 73" stroke="#818cf8" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M122 23C142 43 156 51 156 55C156 59 142 67 122 87" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
 
-  <text x="160" y="62" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="#374151">ShipSignal</text>
+  <text x="175" y="62" font-family="Outfit, sans-serif" font-size="22" font-weight="700" fill="#374151">ShipSignal</text>
 
   <!-- Contact (top right) -->
   <text x="540" y="42" font-family="Outfit, sans-serif" font-size="9" font-weight="400" fill="#6b7280" text-anchor="end">shipsignal.ai</text>

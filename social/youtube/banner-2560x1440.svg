@@ -9,14 +9,14 @@
 
   <rect width="2560" height="1440" fill="url(#yt-banner-bg)"/>
 
-  <!-- Decorative waves -->
+  <!-- Decorative background waves -->
   <circle cx="2100" cy="720" r="250" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.08"/>
   <circle cx="2100" cy="720" r="420" fill="none" stroke="#818cf8" stroke-width="4" opacity="0.05"/>
 
-  <!-- Centered content (safe area) -->
-  <circle cx="1050" cy="720" r="60" fill="white"/>
-  <path d="M1150 620C1200 670 1230 698 1230 720C1230 742 1200 770 1150 820" stroke="white" stroke-width="14" stroke-linecap="round" fill="none"/>
-  <path d="M1240 540C1310 610 1360 668 1360 720C1360 772 1310 830 1240 900" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Centered content (safe area) - signal icon with 2 waves -->
+  <circle cx="1080" cy="720" r="60" fill="white"/>
+  <path d="M1180 620C1230 670 1260 696 1260 720C1260 744 1230 770 1180 820" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M1256 544C1322 610 1368 668 1368 720C1368 772 1322 830 1256 896" stroke="white" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <text x="1280" y="750" font-family="Outfit, sans-serif" font-size="72" font-weight="700" fill="white" text-anchor="middle">ShipSignal</text>
   <text x="1280" y="830" font-family="Outfit, sans-serif" font-size="32" font-weight="400" fill="#c7d2fe" text-anchor="middle">Skip the research. Start building.</text>

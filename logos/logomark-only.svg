@@ -1,6 +1,5 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Signal icon extracted from logo - exact proportions -->
-  <circle cx="12" cy="24" r="6" fill="#6366f1"/>
-  <path d="M24 12C30 18 34 21 34 24C34 27 30 30 24 36" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
-  <path d="M32 6C40 14 46 19 46 24C46 29 40 34 32 42" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.35"/>
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="25" r="6" fill="#6366f1"/>
+  <path d="M24 12C30 18 34 21 34 25C34 29 30 32 24 38" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M32 5C41 14 47 20 47 25C47 30 41 36 32 45" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
 </svg>

@@ -11,9 +11,10 @@
 
   <rect width="252" height="144" fill="url(#card-bg)"/>
 
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="35" cy="40" r="14" fill="white"/>
-  <path d="M56 26C66 36 72 40 72 40C72 40 66 44 56 54" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <path d="M78 18C92 32 100 38 100 40C100 42 92 48 78 62" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M58 24C70 36 78 40 78 40C78 40 70 44 58 56" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M78 12C94 28 104 36 104 40C104 44 94 52 78 68" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <text x="30" y="80" font-family="Outfit, sans-serif" font-size="18" font-weight="700" fill="white">ShipSignal</text>
   <text x="30" y="100" font-family="Outfit, sans-serif" font-size="9" font-weight="400" fill="#c7d2fe">Skip the research. Start building.</text>
@@ -31,9 +32,11 @@
   <text x="277" y="80" font-family="Outfit, sans-serif" font-size="9" font-weight="500" fill="#374151">Social</text>
   <text x="277" y="95" font-family="Outfit, sans-serif" font-size="9" font-weight="400" fill="#6366f1">@shipsignal</text>
 
-  <circle cx="465" cy="110" r="10" fill="#eef2ff"/>
-  <circle cx="465" cy="110" r="4" fill="#6366f1"/>
-  <path d="M474 103C478 107 480 109 480 110C480 111 478 113 474 117" stroke="#818cf8" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Small signal icon with 2 waves -->
+  <circle cx="458" cy="110" r="8" fill="#eef2ff"/>
+  <circle cx="458" cy="110" r="5" fill="#6366f1"/>
+  <path d="M468 102C474 108 478 110 478 110C478 110 474 112 468 118" stroke="#818cf8" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M476 96C484 104 490 108 490 110C490 112 484 116 476 124" stroke="#a5b4fc" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Separator -->
   <line x1="252" y1="0" x2="252" y2="144" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="4 4"/>

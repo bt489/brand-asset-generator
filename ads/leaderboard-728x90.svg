@@ -8,14 +8,14 @@
 
   <rect width="728" height="90" fill="url(#ad-lb-bg)"/>
 
-  <!-- Logo -->
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="50" cy="45" r="14" fill="white"/>
-  <path d="M72 31C82 41 88 44 88 45C88 46 82 49 72 59" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <path d="M95 22C108 35 118 41 118 45C118 49 108 55 95 68" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <path d="M74 27C86 39 94 44 94 45C94 46 86 51 74 63" stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M96 13C112 29 124 38 124 45C124 52 112 61 96 77" stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Copy -->
-  <text x="145" y="40" font-family="Outfit, sans-serif" font-size="18" font-weight="700" fill="white">Skip the research. Start building.</text>
-  <text x="145" y="60" font-family="Outfit, sans-serif" font-size="13" font-weight="400" fill="#c7d2fe">ShipSignal · shipsignal.ai</text>
+  <text x="150" y="40" font-family="Outfit, sans-serif" font-size="18" font-weight="700" fill="white">Skip the research. Start building.</text>
+  <text x="150" y="60" font-family="Outfit, sans-serif" font-size="13" font-weight="400" fill="#c7d2fe">ShipSignal · shipsignal.ai</text>
 
   <!-- CTA -->
   <rect x="560" y="25" width="150" height="40" rx="20" fill="white"/>

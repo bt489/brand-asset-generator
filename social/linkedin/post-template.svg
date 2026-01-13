@@ -9,23 +9,23 @@
 
   <rect width="1200" height="628" fill="url(#li-post-bg)"/>
 
-  <!-- Decorative -->
+  <!-- Decorative background -->
   <circle cx="1000" cy="314" r="150" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.08"/>
   <circle cx="1000" cy="314" r="280" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.04"/>
 
-  <!-- Signal icon -->
+  <!-- Signal icon with exactly 2 waves -->
   <circle cx="120" cy="314" r="40" fill="white"/>
-  <path d="M185 244C215 274 235 296 235 314C235 332 215 354 185 384" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
-  <path d="M240 194C280 234 308 276 308 314C308 352 280 394 240 434" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M188 234C228 274 254 296 254 314C254 332 228 354 188 394" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M240 184C292 236 326 278 326 314C326 350 292 392 240 444" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Content -->
-  <text x="380" y="290" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">Skip the research.</text>
-  <text x="380" y="360" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">Start building.</text>
+  <text x="400" y="290" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">Skip the research.</text>
+  <text x="400" y="360" font-family="Outfit, sans-serif" font-size="48" font-weight="700" fill="white">Start building.</text>
 
   <!-- CTA -->
-  <rect x="380" y="410" width="280" height="56" rx="28" fill="white"/>
-  <text x="520" y="448" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
+  <rect x="400" y="410" width="280" height="56" rx="28" fill="white"/>
+  <text x="540" y="448" font-family="Outfit, sans-serif" font-size="20" font-weight="600" fill="#4f46e5" text-anchor="middle">Get tomorrow's ideas</text>
 
   <!-- Footer -->
-  <text x="380" y="560" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="#a5b4fc">ShipSignal · shipsignal.ai</text>
+  <text x="400" y="560" font-family="Outfit, sans-serif" font-size="18" font-weight="500" fill="#a5b4fc">ShipSignal · shipsignal.ai</text>
 </svg>

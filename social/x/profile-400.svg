@@ -1,0 +1,16 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="x-profile-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#x-profile-bg)"/>
+
+  <!-- Signal icon centered with padding - exactly 2 waves like original -->
+  <!-- Scaled from 50x50 original to fit in ~280px with proper centering -->
+  <circle cx="115" cy="200" r="34" fill="white"/>
+  <path d="M183 116C219 152 241 177 241 200C241 223 219 248 183 284" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M228 68C277 117 308 160 308 200C308 240 277 283 228 332" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

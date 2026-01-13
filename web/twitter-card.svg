@@ -9,19 +9,18 @@
 
   <rect width="1200" height="600" fill="url(#tc-bg)"/>
 
-  <!-- Decorative waves -->
+  <!-- Decorative background waves -->
   <circle cx="1000" cy="300" r="150" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.1"/>
   <circle cx="1000" cy="300" r="260" fill="none" stroke="#818cf8" stroke-width="3" opacity="0.06"/>
 
-  <!-- Logo -->
-  <circle cx="120" cy="300" r="35" fill="white"/>
-  <path d="M175 240C205 270 222 288 222 300C222 312 205 330 175 360" stroke="white" stroke-width="9" stroke-linecap="round" fill="none"/>
-  <path d="M225 195C265 235 290 270 290 300C290 330 265 365 225 405" stroke="white" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.6"/>
-  <path d="M275 150C325 200 355 252 355 300C355 348 325 400 275 450" stroke="white" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.35"/>
+  <!-- Signal icon with exactly 2 waves -->
+  <circle cx="140" cy="300" r="40" fill="white"/>
+  <path d="M210 220C250 260 276 282 276 300C276 318 250 340 210 380" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M265 165C320 220 358 262 358 300C358 338 320 380 265 435" stroke="white" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.4"/>
 
   <!-- Brand Name -->
-  <text x="400" y="285" font-family="Outfit, sans-serif" font-size="80" font-weight="700" fill="white">ShipSignal</text>
+  <text x="420" y="285" font-family="Outfit, sans-serif" font-size="72" font-weight="700" fill="white">ShipSignal</text>
 
   <!-- Tagline -->
-  <text x="400" y="360" font-family="Outfit, sans-serif" font-size="28" font-weight="400" fill="#c7d2fe">Skip the research. Start building.</text>
+  <text x="420" y="360" font-family="Outfit, sans-serif" font-size="28" font-weight="400" fill="#c7d2fe">Skip the research. Start building.</text>
 </svg>
