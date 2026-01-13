@@ -40,6 +40,96 @@ When in doubt, ask. Never assume you know better than the submitted design.
 
 ---
 
+## CRITICAL: Technical Quality Standards
+
+**Follow these rules to ensure professional, polished output:**
+
+### Clipping Prevention (IMPORTANT)
+
+Never let any logo element touch or exceed the viewBox boundaries:
+- **Profile pictures**: Leave at least 15% padding on all sides
+- **Headers and banners**: Ensure logo has breathing room from edges
+- **Small icons**: Scale down further rather than risk clipping
+
+**Bad**: Signal icon waves extending to x=400 in a 400x400 viewBox
+**Good**: Signal icon waves ending at x=320, leaving 80px margin
+
+### Element Count Consistency
+
+If the logo has a specific number of elements (e.g., 2 wave arcs), **every asset must have the same count**:
+- Don't add extra decorative waves "for visual balance"
+- Don't remove waves because the space is tight
+- Scale the existing elements proportionally instead
+
+**Bad**: Adding a third wave arc to "fill the space"
+**Good**: Scaling all 2 wave arcs proportionally to fit
+
+### Proportional Scaling
+
+When embedding the logo in assets at different sizes:
+1. Calculate the scale factor: `target_size / original_size`
+2. Apply the same scale factor to ALL elements (circle, waves, text)
+3. Adjust stroke widths proportionally: `new_stroke = original_stroke × scale_factor`
+4. Maintain relative positions between elements
+
+### Opacity Standards
+
+When the logo uses transparency/opacity:
+- Preserve the exact opacity values from the original
+- First wave arc: typically 0.5-0.6 opacity
+- Second wave arc: typically 0.35-0.4 opacity
+- Never make elements fully opaque unless that's the original
+
+### Safe Margins for Each Asset Type
+
+| Asset Type | Minimum Safe Margin |
+|------------|---------------------|
+| Profile pictures | 15% on all sides |
+| Headers/Banners | 10% from top/bottom, 5% from sides |
+| Post templates | 80px minimum from edges |
+| Favicons | 2px minimum padding |
+| Ad banners | 10px minimum from edges |
+| Business cards | 3mm bleed area |
+
+### Quality Checklist (Run for Every Asset)
+
+Before finalizing any asset, verify:
+- [ ] Logo elements don't touch viewBox edges
+- [ ] All wave arcs are present (match original count)
+- [ ] Proportions match the original logo
+- [ ] Opacities match the original logo
+- [ ] Stroke widths are scaled appropriately
+- [ ] Text is fully visible and not cut off
+- [ ] Asset renders correctly at actual size
+
+### SVG Best Practices
+
+When creating SVG assets:
+
+1. **Set explicit dimensions**: Always include `width` and `height` attributes matching the intended size
+2. **Use viewBox**: Define `viewBox="0 0 [width] [height]"` for scalability
+3. **Keep coordinates within bounds**: All `cx`, `cy`, `x`, `y` values should be inside the viewBox
+4. **Use unique IDs**: Prefix gradient/filter IDs with asset name to avoid conflicts (e.g., `id="og-bg-grad"`)
+5. **Include fallback fonts**: Always specify `font-family="Outfit, sans-serif"` with fallbacks
+6. **Use relative units**: Paths should be drawn relative to the viewBox, not absolute screen coordinates
+
+**SVG Template Structure:**
+```svg
+<svg width="[WIDTH]" height="[HEIGHT]" viewBox="0 0 [WIDTH] [HEIGHT]" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients, filters, etc. with unique IDs -->
+  </defs>
+
+  <!-- Background -->
+  <rect width="[WIDTH]" height="[HEIGHT]" fill="..."/>
+
+  <!-- Content with safe margins -->
+  <!-- Logo elements scaled proportionally -->
+</svg>
+```
+
+---
+
 ## Phase 0: Brand Discovery (REQUIRED)
 
 **Before creating ANY assets, you must gather information from the user.**
@@ -285,6 +375,9 @@ When creating assets:
 5. **Think systematically**: Assets should work together as a cohesive family
 6. **Consider accessibility**: Ensure sufficient contrast and readability
 7. **Future-proof**: Create flexible assets that can adapt to new platforms
+8. **Verify quality**: Run the quality checklist on EVERY asset before delivery
+9. **Never clip**: Double-check that no elements touch or exceed boundaries
+10. **Preserve structure**: The logo in asset #50 should have identical structure to asset #1
 
 ---
 
